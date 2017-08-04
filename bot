@@ -1,0 +1,18 @@
+import requests
+import misc
+import json
+
+token = misc.token
+
+URL = 'https://api.telegram.org/bot' + token + '/'
+
+def get_updates():
+  url = URL + 'getupdates'
+  req = requests.get(url)
+  return req.json()
+
+def main():
+  print(get_updates)
+
+if _name_ == '_main_':
+  main()
