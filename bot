@@ -1,18 +1,40 @@
+import con
 import requests
-import misc
 import json
 
-token = misc.token
+url = 'https://api.telegram.org/bot'+ con.tok+'/'
 
-URL = 'https://api.telegram.org/bot' + token + '/'
+f = open("lud.txt",'r')
+line = f.readline().rstrip()
+print(line)
+last_update_id = int(line)
+f.close()
 
-def get_updates():
-  url = URL + 'getupdates'
-  req = requests.get(url)
-  return req.json()
+#def send_message(chat_id, text):
+#def dosmthwithupd(message):
+
+def getupdate():
+    global last_update_id
+    updates = requests.get(url+'getupdates').json()['result']
+    for update in updates:
+        if (update['update_id'] > last_update_id):
+            f = open("lud.txt",'w')
+            last_update_id = update['update_id']
+            print(last_update_id,file=f)
+            f.close()
+            return update
+    return None
+
 
 def main():
-  print(get_updates)
+    update = getupdate() #функция возвращает самое первое обновление, которое еще не возвращала
+    
+        
 
-if _name_ == '_main_':
-  main()
+
+
+
+
+
+while (True):
+    main()
