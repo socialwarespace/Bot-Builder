@@ -25,6 +25,11 @@ def getupdate():
             return update
     return None
 
+def get_chat_id():
+    global chat_id = requests.get(url+'getupdates').json()['result']['from']['id']
+
+def send_message(chat_id,message_text):
+    requests.post(url+'sendMessage?chat_id='+chat_id+'&text='message_text')
 
 def main():
     update = getupdate() #функция возвращает самое первое обновление, которое еще не возвращала
