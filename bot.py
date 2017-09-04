@@ -33,8 +33,9 @@ def send_message(chat_id,message_text):
 
 def main():
     update = getupdate() #функция возвращает самое первое обновление, которое еще не возвращала
-    
-        
+    if (last_update_id = 1):
+        get_chat_id()
+        send_message(chat_id,'Хаюшки Продакшн Корпорэйшн")
 
 
 
