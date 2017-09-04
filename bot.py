@@ -1,8 +1,8 @@
-import con
+import cor
 import requests
 import json
 
-url = 'https://api.telegram.org/bot'+ con.tok+'/'
+url = 'https://api.telegram.org/bot'+ cor.tok+'/'
 
 f = open("lud.txt",'r')
 line = f.readline().rstrip()
