@@ -4,14 +4,18 @@ import json
 
 url = 'https://api.telegram.org/bot'+ cor.tok+'/'
 
+class item:
+    def __init__(**args):
+        
+class ReplyKeyboardMarkup(item):
+        
+language_keyboard = ReplyKeyboardMarkup(keyboard = [[eng], [rus]], resize_keyboard = false, one_time_keyboard = true, selective = true)
+
 f = open("lud.txt",'r')
 line = f.readline().rstrip()
 print(line)
 last_update_id = int(line)
 f.close()
-
-#def send_message(chat_id, text):
-#def dosmthwithupd(message):
 
 def getupdate():
     global last_update_id
@@ -35,7 +39,7 @@ def main():
     update = getupdate() #функция возвращает самое первое обновление, которое еще не возвращала
     if (last_update_id = 1):
         get_chat_id()
-        send_message(chat_id,'Хаюшки Продакшн Корпорэйшн")
+        send_message(chat_id,'Язык')
 
 
 
