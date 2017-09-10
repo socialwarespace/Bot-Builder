@@ -62,7 +62,7 @@ def send_message(chat_id, text, *parse_mode = false, *disable_web_page_preview =
 
 def main():
     update = getupdate()
-    if (last_update_id = 1):
+    if (last_update_id == 1):
         get_chat_id()
         send_message(chat_id = chat_id, text = 'Язык', reply_markup = language_keyboard.json_KeyboardButton)
 
