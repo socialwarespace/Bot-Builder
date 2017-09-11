@@ -9,7 +9,9 @@
 Бот-репостер
 
   ● Из Vk в Telegram, Twitter, Facebook
+  
   ● Из Twitter'a в Telegram, Vk, Facebook
+  
   ● Из Facebook'a в Telegram, Vk, Twitter
 
 
@@ -45,5 +47,7 @@
 Стрим-бот
 
   ● Twitch
+  
   ● YouTube
+  
   ● Vk
