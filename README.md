@@ -8,6 +8,10 @@
  
  
  
+ 
+ 
+ 
+ 
 Бот-репостер
 
   ● Из Vk в Telegram, Twitter, Facebook
@@ -18,6 +22,9 @@
  
  
  
+ 
+ 
+ 
 Чат-бот
 
   В Vk
