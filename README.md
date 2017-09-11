@@ -8,41 +8,42 @@
 
 Бот-репостер
 
-  Из Vk в Telegram, Twitter, Facebook
-  Из Twitter'a в Telegram, Vk, Facebook
-  Из Facebook'a в Telegram, Vk, Twitter
+  ● Из Vk в Telegram, Twitter, Facebook
+  ● Из Twitter'a в Telegram, Vk, Facebook
+  ● Из Facebook'a в Telegram, Vk, Twitter
+
 
 Чат-бот
 
   В Vk
   
-    Информатор
-    Сообщения группы
-    Разговорный бот
+    ● Информатор
+    ● Сообщения группы
+    ● Разговорный бот
     
   В Telegram
   
-    Информатор
-    Разговорный бот
+    ● Информатор
+    ● Разговорный бот
     
   В Facebook
   
-    Информатор
-    Разговорный бот
+    ● Информатор
+    ● Разговорный бот
     
   В Twitter
   
-    Информатор
-    Разговорный бот
+    ● Информатор
+    ● Разговорный бот
     
   В Discord
   
-    Информатор
-    Разговорный бот
+    ● Информатор
+    ● Разговорный бот
     
     
 Стрим-бот
 
-  Twitch
-  YouTube
-  Vk
+  ● Twitch
+  ● YouTube
+  ● Vk
